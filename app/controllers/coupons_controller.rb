@@ -3,5 +3,6 @@ class CouponsController < ApplicationController
   end
 
   def index
+    @coupons = Coupon.all
   end
 end
