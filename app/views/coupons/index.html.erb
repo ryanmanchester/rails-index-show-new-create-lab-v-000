@@ -1,6 +1,6 @@
 <% @coupons.each do |coupon| %>
  <ul>
-   <li><%= url_field_tag coupon.coupon_code, /coupons/coupon.id %></li>
+   <li><%=  coupon.coupon_code  %></li>
    <li><%= coupon.store %></li>
  </ul>
 <% end %>
